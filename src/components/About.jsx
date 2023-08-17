@@ -5,6 +5,7 @@ import { styles } from '../styles'
 import { services } from '../constants'
 import { fadeIn, textVariant} from '../utils/motion'
 import { SectionWrapper } from '../hoc'
+// import heroSvg from '../assets/herobg.jpg';
 
 const ServiceCard =({index, title, icon})=>(
   <Tilt className='xs:w-[250px] w-full'>
@@ -46,8 +47,7 @@ const About = () => {
        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       > 
       I'm a skilled software developer, familiar with TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        JavaScript. I'm a quick learner and collaborate closely with clients to
+        JavaScript, and expertise in frameworks like React. I'm a quick learner and collaborate closely with clients to
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. Let's work together to bring your ideas to life!
       </motion.p>

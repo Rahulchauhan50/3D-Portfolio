@@ -14,7 +14,7 @@ import {
     mongodb,
     git,
     figma,
-    docker,
+    docker, 
     meta,
     starbucks,
     tesla,
@@ -97,74 +97,55 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+   
   ];
   
   const experiences = [
+   
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Diploma in Web and Software Development",
+      company_name: "DSDC",
+      icon: 'https://media.licdn.com/dms/image/C5103AQFXEu4schLQ6w/profile-displayphoto-shrink_800_800/0/1581133129980?e=2147483647&v=beta&t=IL1MkHydusDW8nlzhJTIVi9uUReXORB4dIVxflb4A10',
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Dec 2021 - Dec 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        " Diploma in web and software Development from Delhi skill Development centre",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Bachelor of Computer Appliction",
+      company_name: "IGNOU",
+      icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE6S8bAH35RWLL6NA7vmFDdrQUib1_3YgzZOYdgTXVm_KtgnQIAdSOn8ahWj0KC044Ta8&usqp=CAU',
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "June 2021 - june 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "I am pursuing Bachelor of Computer Application from Indra Gandhi National Open University",
+        "I am currently in my final year of graduation",
+       ],
+    },
+    {
+      title: "12th standard",
+      company_name: "GBSSS No. 2 Badarpur, New Delhi",
+      icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjaKwcORH_0NkcksrUSxWdMBLXoDPh6aCjxzNImKbFKg&s",
+      iconBg: "#383E56",
+      date: "Apr 2020 - Mar 2021",
+      points: [
+        "I have successfully completed my 12th grade at Government Boys Senior Secondary School No.2 in Badarpur, New Delhi-110044.",
+        "I pursued Commerce with Mathematics and achieved a score of 75% in my 12th standard examinations.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "10th standard",
+      company_name: "GBSSS No. 2 Badarpur, New Delhi",
+      icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjaKwcORH_0NkcksrUSxWdMBLXoDPh6aCjxzNImKbFKg&s",
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Apr 2018 - Mar 2019",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "I have successfully completed my 10th grade at Government Boys Senior Secondary School No.2 in Badarpur, New Delhi-110044.",
+        "I achieved a score of 70% in my 12th standard examinations.",
       ],
     },
   ];
@@ -198,9 +179,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Spotify",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based music platform offering secure user sign-in, search, artist-specific tracks, repeat and shuffle options, history, and favorite track list. Seamlessly sign up, log in, and log out. Enjoy personalized music experiences with ease and security.",
       tags: [
         {
           name: "react",
@@ -214,14 +195,20 @@ import {
           name: "tailwind",
           color: "pink-text-gradient",
         },
+        {
+          name: "Express",
+          color: "yellow-text-gradient",
+        },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Rahulchauhan50/Spotify-Clone",
+      project_link: "https://music-rahul.netlify.app/",
+
     },
     {
-      name: "Job IT",
+      name: "Notebook",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web-based application Notebook platform offering secure cloud-based storage, allowing users to organize notes into folders. Users can securely save, search, and manage notes, while robust encryption guarantees privacy. User-friendly signin, logout.",
       tags: [
         {
           name: "react",
@@ -235,14 +222,19 @@ import {
           name: "scss",
           color: "pink-text-gradient",
         },
+        {
+          name: "Express",
+          color: "yellow-text-gradient",
+        },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Rahulchauhan50/iNotebook",
+      project_link: "https://notebook-rahul.netlify.app/",
     },
     {
-      name: "Trip Guide",
+      name: "QuickNews",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Web-based news feed platform. Explore current updates, top headlines, and filter news by sports, health, science, tech, and more. Enjoy full articles from official sources. Customize your feed by country. Your one-stop source for global and local news.",
       tags: [
         {
           name: "nextjs",
@@ -258,7 +250,8 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Rahulchauhan50/NewsApp-FunctionBased",
+      project_link: "https://news-rahul.netlify.app/",
     },
   ];
   
