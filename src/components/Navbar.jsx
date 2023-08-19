@@ -27,20 +27,6 @@ const Navbar = () => {
         </Link>
 
        <div className="flex flex-row ">
-       <ul className="list-none hidden sm:flex flex-row gap-10 mr-8 items-center">
-          {navLinks?.map((link)=>{
-            return <li
-                    key={link.id}
-                    className={`${
-                      active===link.title?"text-white":"text-secondary"
-                    } hover:text-white text-[18px] font-medium cursor-pointer`}
-                    onClick={()=>{setActive(link.title)}}
-                    >
-                     <a href={`#${link.id}`}>{link.title}</a>
-                   </li>
-          })}
-
-        </ul>
         <a href="https://drive.google.com/u/0/uc?id=1IDs4SIiFb2M6qSnnzCYLnPIZJYh5wAtq&export=download">
         <button class="bg-blue-900 hover:bg-blue-700 text-gray-100 font-bold py-2 px-4 rounded inline-flex items-center">
             <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
