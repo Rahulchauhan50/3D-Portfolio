@@ -26,7 +26,8 @@ const Navbar = () => {
           <p className="text-white text-[18px] font-bold cursor-pointer flex">Rahul &nbsp;<span className="sm:block hidden"> | JacaScript</span></p>
         </Link>
 
-        <ul className="list-none hidden sm:flex flex-row gap-10 ">
+       <div className="flex flex-row ">
+       <ul className="list-none hidden sm:flex flex-row gap-10 mr-8 items-center">
           {navLinks?.map((link)=>{
             return <li
                     key={link.id}
@@ -40,6 +41,13 @@ const Navbar = () => {
           })}
 
         </ul>
+        <a href="https://drive.google.com/u/0/uc?id=1IDs4SIiFb2M6qSnnzCYLnPIZJYh5wAtq&export=download">
+        <button class="bg-blue-900 hover:bg-blue-700 text-gray-100 font-bold py-2 px-4 rounded inline-flex items-center">
+            <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
+            <span>Resume</span>
+          </button>
+        </a>
+       </div>
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img src={!toggle?menu:close}  alt={menu} className="w-[28px] h-[28px] object-contain cursor-pointer" onClick={()=>{setToggle(!toggle)}}/>
           <div className={`${!toggle?'hidden':'flex'} p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}>
@@ -61,9 +69,10 @@ const Navbar = () => {
           })}
 
         </ul>
+         
           </div>
         </div>
-
+       
 
       </div>
     </nav>
