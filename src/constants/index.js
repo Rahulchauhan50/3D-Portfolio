@@ -219,7 +219,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
         {
@@ -232,26 +232,30 @@ import {
       project_link: "https://notebook-rahul.netlify.app/",
     },
     {
-      name: "QuickNews",
+      name: "CodeSync",
       description:
-        "Web-based news feed platform. Explore current updates, top headlines, and filter news by sports, health, science, tech, and more. Enjoy full articles from official sources. Customize your feed by country. Your one-stop source for global and local news.",
+        "developed a Web-based innovative real-time code editor utilizing modern MERN technologies. Integrated Socket.IO to enable seamless collaboration, users can invite others using room IDs for real-time code collaboration. user can save and manage codes on secure cloud-based storage.",
       tags: [
         {
-          name: "nextjs",
+          name: "Socket.Io",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "react",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "mongodb",
           color: "pink-text-gradient",
+        },
+        {
+          name: "Express",
+          color: "yellow-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/Rahulchauhan50/NewsApp-FunctionBased",
-      project_link: "https://news-rahul.netlify.app/",
+      source_code_link: "https://github.com/Rahulchauhan50/Code-Sync",
+      project_link: "https://code-rahul.netlify.app/",
     },
   ];
   
